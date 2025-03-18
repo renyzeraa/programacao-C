@@ -7,25 +7,30 @@ int main()
 
   // Operadores aritméticos
   int soma = a + b;
+  printf("Soma: %d\n", soma);
+
   int subtracao = a - b;
+  printf("Subtração: %d\n", subtracao);
+
   int multiplicacao = a * b;
+  printf("Multiplicação: %d\n", multiplicacao);
+
   int divisao = a / b;
+  printf("Divisão: %d\n", divisao);
 
   // Operadores de atribuição
   a += 2; // a será 12
+  printf("Novo valor de a após += 2: %d\n", a);
   b *= 3; // b será 15
+  printf("Novo valor de b após *= 3: %d\n", b);
 
   // Operadores de incremento e decremento
   a++; // a será 13
+  printf("Novo valor de a após ++: %d\n", a);
   b--; // b será 14
+  printf("Novo valor de b após --: %d\n", b);
 
   // Exibição dos resultados
-  printf("Soma: %d\n", soma);
-  printf("Subtração: %d\n", subtracao);
-  printf("Multiplicação: %d\n", multiplicacao);
-  printf("Divisão: %d\n", divisao);
-  printf("Novo valor de a (após += 2 e ++): %d\n", a);
-  printf("Novo valor de b (após *= 3 e --): %d\n", b);
 
   return 0;
 }
